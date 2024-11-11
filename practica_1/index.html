@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario a mayuscula</title>
+</head>
+<style>
+    .info label{
+        display: block;
+    }
+</style>
+<body>
+    <main>
+        <form action="#" method="get">
+            <div class="info">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="info">
+                <label for="lastName">Apellido:</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            <div class="info">
+                <label for="desc">Introduce una breve descripcion</label>
+                <textarea name="desc" id="desc"></textarea>
+            </div>
+            <button type="button" onclick="changeUpper()">Cambiar en mayusculas</button>
+        </form>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
